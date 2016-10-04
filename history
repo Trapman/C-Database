@@ -1,0 +1,8 @@
+##
+olark Database Creation for Collage
+
+(1) Clone Cyrano DB
+(2) Remove all Cyrano data and preserve Cyrano tables/structure
+(3) Remove all dating-relevant fields in User(Agent/Operator) and Contact(Customer/Visitor) tables: preserve all CreatedDate, UpdatedDate, and anything that ends with 'ID'
+(4) Implement Collage-specific columns for User and Contact
+(5) Create College Feedback table
